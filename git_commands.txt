@@ -23,4 +23,7 @@ git help --all
 git <command> -help
 git <command> --help  #for git manual page
 
-
+Branching
+git branch <branch-name>
+git branch #to check out all the branches in the repo, current branch will have * as prefix
+git checkout <branch-name> #to switch to a branch
