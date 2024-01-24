@@ -35,3 +35,9 @@ $git checkout master
 $git merge emergency-fix-two
 #since, after this the emergency-fix-two and master branch are the same, we can delete emergency-fix-two
 $git branch -d emergency-fix-two
+
+
+Git and Github
+git remote add origin <URL>         # adding remote repo with specified URL as an origin to local Git repo
+#pushing master branch to origin URL and set it as default remote branch
+git push --set-upstream origin master
