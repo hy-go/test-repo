@@ -51,3 +51,6 @@ git push --set-upstream origin master
     #merge
 git fetch origin
 git diff origin/master #to view the changes
+
+#in short we can upstream
+git pull origin
