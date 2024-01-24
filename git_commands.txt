@@ -54,3 +54,8 @@ git diff origin/master #to view the changes
 
 #in short we can upstream
 git pull origin
+
+#pushing
+git push origin
+
+#git github branch
