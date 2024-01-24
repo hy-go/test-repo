@@ -1,0 +1,22 @@
+git --version
+
+git status
+git status --short
+    # ?? - Untracked files
+    # A - Files added to stage
+    # M - Modified files
+    # D - Deleted files
+
+git add <file-name>
+
+#Staging Environment
+git add -all
+git add -A
+
+#Commiting
+git commit -m "message"
+
+#Git Commit without Staging
+git commit -a -m "message"
+
+
