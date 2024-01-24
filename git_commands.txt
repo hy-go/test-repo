@@ -61,3 +61,7 @@ git push origin
 #git github branch
 git branch -a #to view all git branches on local and remote branches
 git branch -r #to view all remote git branches
+#pulling
+git checkout <remote-branch-name>
+#pushing
+git push origin <branch-name>
