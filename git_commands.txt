@@ -7,6 +7,8 @@ git status --short
     # M - Modified files
     # D - Deleted files
 
+git log
+
 git add <file-name>
 
 #Staging Environment
@@ -39,5 +41,13 @@ $git branch -d emergency-fix-two
 
 Git and Github
 git remote add origin <URL>         # adding remote repo with specified URL as an origin to local Git repo
+
 #pushing master branch to origin URL and set it as default remote branch
 git push --set-upstream origin master
+
+#pulling
+#pull is a combination of 2 commands:
+    #fetch
+    #merge
+git fetch origin
+git diff origin/master #to view the changes
