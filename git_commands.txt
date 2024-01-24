@@ -27,3 +27,4 @@ Branching
 git branch <branch-name>
 git branch #to check out all the branches in the repo, current branch will have * as prefix
 git checkout <branch-name> #to switch to a branch
+git checkout <branch-name> -b  #this will create the new branch and switch to it
