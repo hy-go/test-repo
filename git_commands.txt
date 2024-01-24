@@ -19,4 +19,8 @@ git commit -m "message"
 #Git Commit without Staging
 git commit -a -m "message"
 
+git help --all
+git <command> -help
+git <command> --help  #for git manual page
+
 
